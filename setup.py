@@ -2,16 +2,18 @@
 
 from setuptools import setup
 
-setup(name = "python-networkmanager",
+setup(name = "er-python-networkmanager",
       version = "2.2",
       author = "Dennis Kaarsemaker",
       author_email = "dennis@kaarsemaker.net",
-      url = "http://github.com/seveas/python-networkmanager",
+      maintainer =  "Niels Hvid",
+      maintainer_email = "nah@enabled-robotics.com",
+      url = "http://github.com/enabled-robotics/python-networkmanager",
       description = "Easy communication with NetworkManager",
       py_modules = ["NetworkManager"],
       install_requires = ["dbus-python", "six"],
       classifiers = [
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: zlib/libpng License',
         'Operating System :: POSIX :: Linux',
